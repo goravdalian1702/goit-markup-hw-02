@@ -6,6 +6,7 @@
     --section-color: #E5E5E5;
     --button-bg-color:#F5F4FA;
     --footer-color:rgba(255, 255, 255, 0.6);
+    --hero-color:#2F303A;
 }
 
 body {
@@ -72,7 +73,7 @@ body {
 }
 
 .hero{
-    background-color: #2F303A;;
+    background-color: var(--hero-color);
 }
 
 .first-button{
@@ -160,7 +161,7 @@ body {
 }
 
 .footer{
-    background-color: #2F303A;
+    background-color: var(--hero-color)
 }
 
 .basement .address{
@@ -236,8 +237,7 @@ body {
 
 
 
-/* колір основного тек
-ста #212121 */
+/* колір основного текста #212121 */
 /* другорядний колір rgba(33, 33, 33, 1) */
 
 /* акцент #2196F3 */
