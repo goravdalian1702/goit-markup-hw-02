@@ -164,6 +164,15 @@ body {
     background-color: var(--hero-color)
 }
 
+.footer .logo{
+    color: var(--background-color);
+}
+
+.footer .logo:hover,
+.footer .logo:focus{
+    color: var(--accent-color);
+}
+
 
 .foot-nav .basement .address{
     color: var(--background-color);
