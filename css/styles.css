@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: var(--section-color); 
+    background-color: var(--background-color); 
     color: var(--primery-text-color);
 
 
@@ -164,7 +164,8 @@ body {
     background-color: var(--hero-color)
 }
 
-.basement .address{
+
+.foot-nav .basement .address{
     color: var(--background-color);
     text-decoration: none;
 
@@ -172,7 +173,13 @@ body {
     line-height: 1.71;
 }
 
-.basement .link{
+.foot-nav .basement .address:hover,
+.foot-nav .basement .address:focus{
+    color: var(--accent-color);
+}
+
+
+.foot-nav .basement .link{
     
     color: var(--footer-color);
     text-decoration: none;
@@ -181,6 +188,11 @@ body {
     line-height: 1.71;
 }
 
+
+.foot-nav .basement .link:hover,
+.foot-nav .basement .link:focus{
+    color: var(--accent-color);
+}
 
 
 
